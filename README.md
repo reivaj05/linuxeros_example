@@ -11,13 +11,17 @@ Developer setup
  - Install  [go](https://golang.org/doc/install) 
  - Install [glide](https://github.com/Masterminds/glide) or run:
 
->chmod +x scripts/*.sh
->scripts/deps.sh
+```
+chmod +x scripts/*.sh
+scripts/deps.sh
+```
 
  - go build
  - Run the server:
 
->./serviceMock
+```
+./serviceMock
+```
 
  - Visit [localhost:8000/[id]](http://localhost:8000) with different HTTP methods
 
